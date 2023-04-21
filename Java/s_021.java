@@ -182,4 +182,32 @@ public class s_021 {
         }
         System.out.println(String.format("%.6f", scoreSum/subjectSum));
     }
+    public static void main7(String[] args) { //그룹단어체커 230421
+        Scanner sc = new Scanner(System.in);
+        int count=0;
+        int num = sc.nextInt();
+        sc.nextLine();
+        for(int n=0; n<num; n++) {
+            String str = sc.nextLine();
+            int k;
+            L1:
+            for (int i = 0; i < str.length() - 1; i++) {
+                k = i;
+                while (str.charAt(k) == str.charAt(k + 1)) {
+                    if(k==str.length()-2) {
+                        k++;
+                        break;
+                    }
+                    else k++;
+                }
+                for (int j = k + 1; j < str.length(); j++) {
+                    if (str.charAt(k) == str.charAt(j)) {
+                        count++;
+                        break L1;
+                    }
+                }
+            }
+        }
+        System.out.println(num-count);
+    }
 }
