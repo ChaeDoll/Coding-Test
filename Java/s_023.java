@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class s_023 {
+public class s_023 { 
     public static void main(String[] args) throws IOException { //230430 진법변환
         Scanner sc = new Scanner(System.in);
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -18,4 +18,28 @@ public class s_023 {
         }
         System.out.println(sum);
     }
+    public static void main1(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] num = new int[5];
+        int sum=0;
+        for(int i=0; i<5; i++) {
+            num[i] = sc.nextInt();
+            sum += num[i];
+        }
+        System.out.println(sum/5);
+        Arrays.sort(num, 0, 5);
+        System.out.println(num[2]);
+    }
+    public static void main2(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int student = sc.nextInt();
+        int pass = sc.nextInt();
+        int[] num = new int[student];
+        for(int i=0; i<student; i++) {
+            num[i] = sc.nextInt();
+        }
+        Arrays.sort(num);
+        System.out.println(num[num.length-pass]);
+    }
+    
 }

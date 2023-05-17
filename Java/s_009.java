@@ -1,3 +1,4 @@
+//230405
 import java.util.Scanner;
 
 public class s_009 {
