@@ -1,6 +1,9 @@
+package Silver;
+
 import java.io.*;
 import java.util.*;
-public class s_026 { //230706 큐2 문제18258 실버4
+
+public class s_230706 { //'큐2 18258번' [실버4] (큐, 덱)
     public static void main(String[] args) throws IOException {
         LinkedList<Integer> llist = new LinkedList<>();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -1,6 +1,8 @@
-import java.io.*;
+package Silver;
+
 import java.util.*;
-public class s_024 { //230517 균형잡힌세상(스택)
+
+public class s_230517 { //'균형잡힌세상 4949번' [실버4] (스택)
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Stack<Integer> stack = new Stack();
