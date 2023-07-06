@@ -3,7 +3,7 @@ package Silver;
 import java.io.*;
 import java.util.*;
 
-public class s_230705 { //230705 '스택 수열 1874번' [실버2] (스택)
+public class s_230705 { //'스택 수열 1874번' [실버2] (스택)
     public static void main(String[] args) throws IOException{ 
         Scanner sc = new Scanner(System.in);
         int N=sc.nextInt();

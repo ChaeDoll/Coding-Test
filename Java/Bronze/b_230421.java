@@ -49,7 +49,7 @@ public class b_230421 {
         }
         System.out.println(flag);
     }
-    public static void main3(String[] args) { //'단어 공부 1157번' [브론즈1] (심화1)
+    public static void main2(String[] args) { //'단어 공부 1157번' [브론즈1] (심화1)
         Scanner sc = new Scanner(System.in);
         String sen = sc.nextLine();
         int[] alp = new int[26];

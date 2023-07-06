@@ -3,7 +3,7 @@ package Bronze;
 import java.io.*;
 import java.util.*;
 
-public class b_230705 { //평균은넘겠지4344 브론즈1
+public class b_230705 { //'평균은 넘겠지 4344번' [브론즈1] (수학)
     public static void main(String[] args) throws IOException { 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());

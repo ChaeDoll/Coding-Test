@@ -3,8 +3,8 @@ package Bronze;
 import java.io.*;
 import java.util.*;
 
-public class b_230430 { //'진법변환 2745번' [브론즈2] (일반 수학 1)
-    public static void main(String[] args) throws IOException { //230430 진법변환
+public class b_230430 {
+    public static void main(String[] args) throws IOException { //'진법변환 2745번' [브론즈2] (일반 수학 1)
         Scanner sc = new Scanner(System.in);
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
